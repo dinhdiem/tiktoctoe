@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./TicTacToe.css";
-
 const TicTacToe = () => {
   const [turn, setTurn] = useState("x");
   const [cells, setCells] = useState(Array(9).fill(""));
